@@ -1,0 +1,55 @@
+# TOOLS.md - Local Notes
+
+Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
+
+## Discord
+- Server: **TARS HQ** (`1474063078365728881`)
+- #general: `1474063079711969435`
+- Bot token: in gateway plist + openclaw.json
+
+## Gmail
+- Account: `tars11235@gmail.com`
+- Auth: `gog` CLI (OAuth, all services enabled)
+- GOG_ACCOUNT set in gateway plist
+
+## Traffic Alerts for Work
+- Home: 106 Pine St., Trussville, AL 35173
+- Grandview Medical Center (GV): 3690 Grandview Parkway, Birmingham, AL 35243
+- Alert: 45 minutes before GV shifts only
+
+## What Goes Here
+
+Things like:
+
+- Camera names and locations
+- SSH hosts and aliases
+- Preferred voices for TTS
+- Speaker/room names
+- Device nicknames
+- Anything environment-specific
+
+## Examples
+
+```markdown
+### Cameras
+
+- living-room → Main area, 180° wide angle
+- front-door → Entrance, motion-triggered
+
+### SSH
+
+- home-server → 192.168.1.100, user: admin
+
+### TTS
+
+- Preferred voice: "Nova" (warm, slightly British)
+- Default speaker: Kitchen HomePod
+```
+
+## Why Separate?
+
+Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
+
+---
+
+Add whatever helps you do your job. This is your cheat sheet.
